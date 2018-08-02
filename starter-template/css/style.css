@@ -1,0 +1,79 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/* Fonts */
+.icon-block {
+  padding: 0 15px; }
+
+.icon-block .material-icons {
+  font-size: inherit; }
+
+.hero {
+  background: url("../assets/header-image.jpg") no-repeat fixed center;
+  background-size: cover;
+  background-position-y: top;
+  height: 700px; }
+  .hero .mariam-pic {
+    height: 300px;
+    margin: 20px; }
+  .hero h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold; }
+  .hero a {
+    font-family: "Roboto", sans-serif; }
+
+.sign-up {
+  background-color: #00dfd4; }
+
+.play-vid {
+  background: url("../assets/video-image.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  height: 300px; }
+
+.plain-text {
+  font-family: "Roboto", sans-serif; }
+
+.bold-text {
+  font-family: "Playfair Display", serif;
+  font-weight: bold; }
+
+.info-section {
+  border-top: 5px solid;
+  margin: 30px; }
+
+.map-section {
+  border-top: 5px solid #092033;
+  padding: 30px; }
+
+.left-area {
+  height: 300px; }
+
+.sign-up-cta {
+  background: url("../assets/signup-image.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  height: 300px; }
+
+.enter-email {
+  display: inline-flex; }
+
+/* Overriding Materialize input styling */
+input {
+  background-color: white !important;
+  width: 400px !important;
+  padding: 0 15px !important; }
+
+.sign-up-btn {
+  width: 200px;
+  height: 45px;
+  border: 0 !important; }
+
+.page-footer {
+  background-color: #092033; }
+
+/*# sourceMappingURL=style.css.map */

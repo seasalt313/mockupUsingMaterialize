@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* Fonts */
+
+$font-main: 'Roboto',
+sans-serif;
+$font-bold-serif: 'Playfair Display',
+serif;
+$font-narrow: 'Oswald',
+sans-serif;
+// Colors
+$primary: #00dfd4;
+$primary-hover: #009e97;
+$secondary: #092033;
+$secondary-hover: #343e45;
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.hero {
+  background: url('../assets/header-image.jpg') no-repeat fixed center;
+  background-size: cover;
+  background-position-y: top;
+  height: 700px;
+  .mariam-pic {
+    height: 300px;
+    margin: 20px;
+  }
+  h2 {
+    font-family: $font-bold-serif;
+    font-weight: bold;
+  }
+  a {
+    font-family: $font-main;
+  }
+}
+
+.sign-up {
+  background-color: $primary;
+}
+
+.play-vid {
+  background: url('../assets/video-image.jpg') no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  height: 300px;
+}
+
+.plain-text {
+  font-family: $font-main;
+}
+
+.bold-text {
+  font-family: $font-bold-serif;
+  font-weight: bold;
+}
+
+.info-section {
+  border-top: 5px solid;
+  margin: 30px;
+}
+
+.map-section {
+  border-top: 5px solid $secondary;
+  padding: 30px;
+}
+
+.left-area {
+  height: 300px;
+}
+
+.sign-up-cta {
+  background: url('../assets/signup-image.jpg') no-repeat;
+  background-size: cover;
+  background-position-y: top;
+  height: 300px;
+}
+
+.enter-email {
+  display: inline-flex;
+}
+
+/* Overriding Materialize input styling */
+
+input {
+  background-color: white !important;
+  width: 400px !important;
+  padding: 0 15px !important;
+}
+
+.sign-up-btn {
+  width: 200px;
+  height: 45px;
+  border: 0 !important;
+}
+
+.page-footer {
+  background-color: $secondary;
+}
