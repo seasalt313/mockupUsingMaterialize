@@ -9,102 +9,176 @@
 
 /* Fonts */
 
-$font-main: 'Roboto',
-sans-serif;
-$font-bold-serif: 'Playfair Display',
-serif;
-$font-narrow: 'Oswald',
-sans-serif;
+$font-main: 'Roboto', sans-serif;
+$font-bold-serif: 'Playfair Display', serif;
+$font-narrow: 'Oswald', sans-serif;
 // Colors
 $primary: #00dfd4;
 $primary-hover: #009e97;
 $secondary: #092033;
 $secondary-hover: #343e45;
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
 }
 
 .icon-block .material-icons {
-  font-size: inherit;
+	font-size: inherit;
+}
+
+label {
+	font-family: $font-narrow;
+	color: #6a6a6a42;
 }
 
 .hero {
-  background: url('../assets/header-image.jpg') no-repeat fixed center;
-  background-size: cover;
-  background-position-y: top;
-  height: 700px;
-  .mariam-pic {
-    height: 300px;
-    margin: 20px;
-  }
-  h2 {
-    font-family: $font-bold-serif;
-    font-weight: bold;
-  }
-  a {
-    font-family: $font-main;
-  }
+	background: url('../assets/header-image.jpg') no-repeat fixed center;
+	background-size: cover;
+	background-position-y: top;
+	height: 700px;
+	.mariam-pic {
+		height: 300px;
+		margin: 20px;
+	}
+	h2 {
+		font-family: $font-bold-serif;
+		font-weight: bold;
+	}
+	a {
+		font-family: $font-main;
+	}
 }
 
 .sign-up {
-  background-color: $primary;
+	background-color: $primary;
 }
 
-.play-vid {
-  background: url('../assets/video-image.jpg') no-repeat;
-  background-size: cover;
-  background-position-y: top;
-  height: 300px;
+.second-row {
+	margin: 0;
+	.play-vid {
+		background: url('../assets/video-image.jpg') no-repeat;
+		background-size: cover;
+		background-position-y: top;
+		height: 300px;
+		padding-top: 80px;
+		img {
+			width: 100px;
+			text-align: center !important;
+		}
+		p {
+			font-size: 18px;
+			font-family: $font-main;
+		}
+	}
+	h5 {
+		padding: 0 100px !important;
+		i {
+			margin-left: -2%;
+			font-size: 42px;
+			font-weight: bold;
+		}
+	}
 }
 
 .plain-text {
-  font-family: $font-main;
+	font-family: $font-main;
 }
 
 .bold-text {
-  font-family: $font-bold-serif;
-  font-weight: bold;
+	font-family: $font-bold-serif;
+	font-weight: bold;
 }
 
 .info-section {
-  border-top: 5px solid;
-  margin: 30px;
+	border-top: 5px solid;
+	margin: 30px;
+	padding: 45px !important;
+	height: 600px;
+	h6 {
+		font: $font-main, bolder;
+		font-weight: 900;
+	}
+	p {
+		font-family: $font-main;
+	}
+	li {
+		font-family: $font-main;
+		padding: 10px;
+		font-size: 12px;
+	}
+	i {
+		padding: 10px;
+		font-size: 40px;
+	}
 }
 
 .map-section {
-  border-top: 5px solid $secondary;
-  padding: 30px;
+	border-top: 5px solid $secondary;
+	padding: 30px;
+	.text-section {
+		h6 {
+			font: $font-main, bolder;
+			font-weight: 900;
+		}
+		p {
+			font-family: $font-main;
+			color: grey;
+		}
+	}
 }
 
 .left-area {
-  height: 300px;
+	height: 300px;
+	font-family: $font-main;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	display: inline-grid;
+	padding: 50px !important;
 }
 
-.sign-up-cta {
-  background: url('../assets/signup-image.jpg') no-repeat;
-  background-size: cover;
-  background-position-y: top;
-  height: 300px;
-}
-
-.enter-email {
-  display: inline-flex;
-}
-
-/* Overriding Materialize input styling */
-
-input {
-  background-color: white !important;
-  width: 400px !important;
-  padding: 0 15px !important;
-}
-
-.sign-up-btn {
-  width: 200px;
-  height: 45px;
-  border: 0 !important;
+.sign-up-row {
+	margin: 0;
+	.sign-up-cta {
+		background: url('../assets/signup-image.jpg') no-repeat;
+		background-size: cover;
+		background-position-y: top;
+		height: 300px;
+		padding: 50px 110px !important;
+		i {
+			margin-left: -2%;
+			font-size: 42;
+			font-weight: bold;
+		}
+	}
+	.enter-email {
+		display: inline-flex;
+		/* Overriding Materialize input styling */
+		input {
+			background-color: white !important;
+			width: 350px !important;
+			padding: 0 15px !important;
+		}
+		.sign-up-btn {
+			width: 200px;
+			height: 45px;
+			border: 0 !important;
+		}
+	}
 }
 
 .page-footer {
-  background-color: $secondary;
+	background-color: $secondary;
+	padding: 170px 100px;
+	img {
+		filter: invert(1);
+	}
+	a {
+		font-size: 12px;
+		font-weight: 100;
+	}
+	.lorem-footer {
+		font-size: 11px;
+		line-height: 20px !important;
+	}
 }
